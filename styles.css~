@@ -13,7 +13,7 @@ body {
 
 .content {
 	flex: 1 0 300px;
-	padding: 32px 0 48px 0;
+	padding: 32px 0;
 }
 
 .white-bg {

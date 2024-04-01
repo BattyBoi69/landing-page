@@ -7,28 +7,63 @@
 	</head>
 
 	<body>
+		<div class="container">
 		<div class="header">
 			<div class="logo">Header Logo</div>
-			<ul>
+			<ul class="hero-secondary-text">
 				<li>header link one</li>
 				<li>header link two</li>
 				<li>header link three</li>
 			</ul>
 		</div>
-
+		</div>
+		
+		<div class="container content">
 		<div class="splash">
+			<div>
+				<div class="hero-primary-text">This website is awesome</div>
+				<p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is of a lower contrast.</p>
+				<button>Sign up</button>
+			</div>
+			<img alt="this is a placeholder for an image" height="200px" width="400px">
+		</div>
 		</div>
 
-		<div class="info">
+		<div class="container white-bg content"> 
+		<div class="info deep-content">
+			Some random information.
+			<img>
+			this is some subtext under an illustation or image
+			<img>
+			this is some subtext under an illustation or image
+			<img>
+			this is some subtext under an illustation or image
+			<img>
+			this is some subtext under an illustation or image
+		</div>
 		</div>
 
-		<div class="testimonial">
+		<div class="container grey-bg content">
+			<div class="testimonial">
+		<div class="quote">
+			This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it doesn't look nice.
+		</div>
+		<div class="author">- Gandhi </div>
+		</div>
 		</div>
 
+		<div class="container white-bg content">
 		<div class="modal">
+			Call to action! It's time!
+			Sign up for our product by click that button right over there, or else we'll starve. I'm serious, we're locked in an unknown location and if you don't click, my boss will not provide me water for 3 days.
+			<button>Sign up</button>
+		</div>
 		</div>
 
+		<div class="container">
 		<div class="footer">
+			Copyright C The Odin Project 2025
+		</div>
 		</div>
 	</body>
 </html>
