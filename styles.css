@@ -12,8 +12,8 @@ body {
 }
 
 .content {
-	flex: 1 0 300px;
-	padding: 32px 0 48px 0;
+	flex: 1 0 auto;
+	padding: 32px 0 56px 0;
 }
 
 .white-bg {
@@ -22,6 +22,10 @@ body {
 
 .grey-bg {
 	background: #E5E7EB;
+}
+
+.padded-top {
+	padding-top: 72px;
 }
 
 .header {
@@ -36,7 +40,7 @@ body {
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0;
-	gap: 8px;
+	gap: 16px;
 }
 
 .header ul li {
@@ -84,12 +88,13 @@ body {
 }
 
 .splash img {
-	height: 200px;
-	width: 300px;
+	height: 250px;
+	width: 375px;
 	flex-shrink: 0;
 }
 
 button {
+	border: 0px;
 	border-radius: 4px;
 	background: #3882F6;
 	color: white;
@@ -98,4 +103,66 @@ button {
 
 .deep-content {
 	padding: 0 96px;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 32px;
+	text-align: center;
+}
+
+.info img {
+	height: 100px;
+	width: 100px;
+	border: 3px solid #3882F6;
+	border-radius: 5px;
+}
+
+.info .sub-title {
+	width: 700px;
+	flex: 1 100%;
+	color: #1F2937;
+	font: 900 36px sans-serif
+}
+
+.sub-info {
+	max-width: 100px;
+}
+
+.modal {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	background: #3882F6;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	border-radius: 5px;
+}
+
+.modal-text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	color: white;
+	font-family: "Arial", sans-serif;
+	font-size: 8px;
+}
+
+.modal-text .sub-title {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.modal button {
+	border: 2px solid white;
+	flex-shrink: 0
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
 }
